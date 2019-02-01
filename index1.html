@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Oefening1.1</title>
+</head>
+<body>
+
+<style>
+
+.Cdiv {
+
+padding: 80px;
+background-color: grey;
+
+}
+
+button {
+
+width: 100px;
+height: 50px;
+font-size: 24px;
+background-color: rgb(2, 15, 2);
+color: white;
+
+}
+
+
+
+
+
+</style>
+
+
+  <div class="Cdiv" id="divkleur" >
+    <button type="button" onclick="Krood()" class="button" id="red">Red</button>
+    <button type="button" class="button" onclick="Kgroen()" id="green">Green</button>
+    <button type="button" class="button" onclick="Kblauw()" id="blue">Blue</button>
+  </div><br>
+
+  
+
+
+
+<script>
+
+
+  function Krood() {
+      document.getElementById("divkleur").style.backgroundColor = "#FF0000"
+  }
+
+  function Kgroen() {
+      document.getElementById("divkleur").style.backgroundColor = "#2EFF32"
+  }
+
+  function Kblauw() {
+      document.getElementById("divkleur").style.backgroundColor = "#1B31FF"
+  }
+
+
+</script>
+
+
+</body>
+
+
+</html>
